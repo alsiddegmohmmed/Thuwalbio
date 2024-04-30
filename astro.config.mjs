@@ -25,7 +25,7 @@ const whenExternalScripts = (items = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  site: 'https://alsiddegmohammed.github.io/Thuwalbio',
+  site: 'https://alsiddegmohammed.github.io',
   base: '/Thuwalbio',
   
   
